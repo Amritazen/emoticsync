@@ -7,7 +7,14 @@
 # ✅ No API keys, no expiry
 # ==========================================================
 
-
+import os
+import tempfile
+import numpy as np
+import librosa
+import requests
+import streamlit as st
+from PIL import Image
+import torch
 
 st.set_page_config(page_title="🎵 EmotiSync — Mood-Based Tamil + English Music", layout="centered")
 st.title("🎵 EmotiSync: Mood-Based Tamil + English Music Generator")
@@ -255,4 +262,5 @@ if st.button("🔍 Analyze Emotion"):
                     st.write(f"- {name} — {artist}")
         else:
             st.info("No songs found. Try switching language or re-upload clearer inputs.")
+
 
