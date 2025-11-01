@@ -5,3 +5,6 @@ librosa
 requests
 Pillow
 torch
+transformers
+deepface
+ytmusicapi
