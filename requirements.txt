@@ -1,0 +1,7 @@
+streamlit
+numpy
+opencv-python-headless
+librosa
+requests
+Pillow
+torch
