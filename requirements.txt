@@ -4,7 +4,7 @@ numpy
 pandas
 torch
 transformers
-librosa==0.10.1
+librosa
 soundfile
 numba==0.58.1
 
