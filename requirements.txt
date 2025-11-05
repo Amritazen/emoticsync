@@ -1,11 +1,7 @@
 streamlit
+opencv-python-headless
 numpy
-librosa
-requests
-Pillow
+pandas
 torch
 transformers
-deepface
-ytmusicapi
-opencv-python-headless==4.10.0.84
-cv2
+opencv-python==4.10.0.82
